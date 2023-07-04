@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background: rgb(247, 245, 245);
+    
+}
+
+.neon{
+    color: #fff;
+    border: 4px solid #fff;
+    padding: 30px 70px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    transition: text-shadow 0.5s, box-shadow 0.5s;
+}
+
+.neon:hover{
+    text-shadow: -2px -2px 10px #fff,
+                2px 2px 10px #fff,
+                0 0 20px #f10,
+                0 0 40px #f10,
+                0 0 60px #f10,
+                0 0 80px #f10,
+                0 0 100px #f10;
+
+    box-shadow: 0 0 5px #fff,
+                inset 0 0 5px #fff,
+                0 0 20px #08f,
+                inset 0 0 20px #08f,
+                0 0 40px #08f,
+                inset 0 0 40px #08f;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items:center
+
+}
+.neon{
+    background:#3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+.neon form input{
+    border: 0;
+    outline:0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background:transparent;
+    font-size: 20px;
+    color:#fff;
+    cursor:pointer;
+    margin:10px;
+}
+form .display{
+    display:flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display.hover:{
+    text-shadow: -2px -2px 10px #fff,
+    2px 2px 10px #fff,
+    0 0 20px #f10,
+    0 0 40px #f10,
+    0 0 60px #f10,
+    0 0 80px #f10,
+    0 0 100px #f10;
+
+box-shadow: 0 0 5px #fff,
+    inset 0 0 5px #fff,
+    0 0 20px #08f,
+    inset 0 0 20px #08f,
+    0 0 40px #08f,
+    inset 0 0 40px #08f;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
+form input.operator{
+    color:#33ffd8;
+}
+form input.operation:hover{
+    text-shadow: -2px -2px 10px #fff,
+    2px 2px 10px #fff,
+    0 0 20px #f10,
+    0 0 40px #f10,
+    0 0 60px #f10,
+    0 0 80px #f10,
+    0 0 100px #f10;
+    box-shadow: 0 0 5px #fff,
+    inset 0 0 5px #fff,
+    0 0 20px #08f,
+    inset 0 0 20px #08f,
+    0 0 40px #08f,
+    inset 0 0 40px #08f;
+}
